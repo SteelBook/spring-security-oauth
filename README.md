@@ -16,7 +16,7 @@ mvn clean install
 
 ## Projects/Modules
 This project contains a number of modules, here is a quick description of what each module contains: 
-- `oauth-rest` - Authorization Server (Keycloak), Resource Server and Angular App based on the new Spring Security 5 stack
+- `oauth-rest` - Authorization Server (Keycloak), Resource Server and Angular App based on the new Spring Security 5 stack ("Spring REST API + OAuth2 + Angular" https://www.baeldung.com/rest-api-spring-oauth2-angular)
 - `oauth-jwt` - Authorization Server (Keycloak), Resource Server and Angular App based on the new Spring Security 5 stack, focused on JWT support
 - `oauth-jws-jwk-legacy` - Authorization Server and Resource Server for JWS + JWK in a Spring Security OAuth2 Application
 - `oauth-legacy` - Authorization Server, Resource Server, Angular and AngularJS Apps for legacy Spring Security OAuth2
